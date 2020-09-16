@@ -1,0 +1,41 @@
+/* Created by House Gardner */
+body {
+  text-align: center;
+  background-color: rgb(174, 198, 207);
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Press Start 2P', cursive;
+}
+
+p{
+  font-size: 1rem;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#result {
+  font-size: 3.5rem;
+  font-family: 'Bangers', cursive;
+  margin-bottom: 40px;
+}
+.button{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+justify-content: center;
+  width: 80%;
+  border: 2px solid rba()  /* color here*/
+}
+
+button{
+  background-color: rgb(126, 164, 179);
+  width: 18%;
+  font-size: 2.5rem;
+  border-radius: 5px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+button:focus{
+  outline:none;
+}
